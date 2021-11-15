@@ -1,0 +1,72 @@
+@media screen and (max-width: 600px) {
+    .logo{
+        width: 35%;
+    }
+    button{
+        display: block;
+        float: right;
+        margin-right: 1%;
+        width: 15%;
+        height: auto;
+        font-size: 30px;
+        margin-top:8px ;
+        border: 0;
+        background-color: rgb(247, 247, 247);
+        color: rgb(41, 92, 88);
+    }
+    header>button:hover{
+        width: 80%;
+        height: 100vh;
+        float: right;
+        padding-top: 30px;
+        margin-left: 20%;
+        background-color: rgb(255, 255, 255);
+    }
+    .menu{
+        display: none;
+    }
+    .menu>li{
+        width: 100%;
+        text-align: center;
+        font-size: 35px; 
+        /*display: flex;*/     
+    }
+    .presentacion{
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        padding-top: 50%;
+        font-size: 43px;
+    }
+    .navegadro_inferior>a{
+        padding: 20px;
+        display: block;
+        margin-top: 5%;
+        margin: 1%;
+    }
+    .nosotros>img{
+        margin-top: 1%;
+        width: 100%;
+        height: auto;
+    }
+    .nosotros>section{
+        width: 100%;
+    }
+    article{
+        float:left
+    }
+    input[type=submit]{
+        width: 90%;
+        height: 40px;
+        margin-left: 10%;
+    }
+    input[type=email]{
+        width: 90%;
+        height: 40px;
+        margin-left: 10%;
+    }
+    .redes{
+        margin-left:30%;
+    }
+}
